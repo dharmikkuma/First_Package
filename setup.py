@@ -22,7 +22,7 @@ setup(
     author_email="dharmikanghan1996@gmail.com",
     url="https://github.com/dharmikkuma/First_Package.git",
     description="An application that informs you of the time in different locations and timezones",
-    install_requires=get_requirements(Path("./requirements.txt")),
+    install_requires= ["numpy","flake8", "pytest","tox","mypy>=0.971","black>=22.8.0","tox-gh-actions","pathlib"],
     package_dir = {"": "src"},
     packages=find_packages(where = "src"),
     )

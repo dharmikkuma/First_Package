@@ -20,7 +20,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="Python_calculator", # name of your Pipy package
+    name="Pyt_ca", # name of your Pipy package
     version="0.0.2",
     author="Dharmikkumar Anaghan",
     author_email="dharmikanghan1996@gmail.com",

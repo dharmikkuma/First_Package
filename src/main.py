@@ -1,7 +1,26 @@
-from src.logic import calculator
+import numpy as np  
 
 
-calculator = calculator()
+class calculator():
+    
+    def sum(a, b):
+        answer = a + b
 
+        return answer
+    
+    def mul(a, b):
+        answer = a * b
 
-calculator.sum()
+        return answer
+
+    def dev(a, b):
+        if b == 0:
+            return print("devision by zero")
+        answer = a/ b
+
+        return answer
+    
+    def sub(a, b):
+        answer = a - b
+
+        return answer

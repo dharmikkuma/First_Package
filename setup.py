@@ -1,5 +1,7 @@
 from setuptools import setup, find_packages
 from typing import List
+from pathlib import Path
+
 
 HYPEN_E_DOT = "-e ."
 def get_requirements(file_path:str)-> List[str]:
@@ -20,7 +22,7 @@ setup(
     author_email="dharmikanghan1996@gmail.com",
     url="https://github.com/dharmikkuma/First_Package.git",
     description="An application that informs you of the time in different locations and timezones",
-    install_requires=get_requirements("requirements.txt"),
+    install_requires=get_requirements(Path("./requirements.txt")),
     package_dir = {"": "src"},
     packages=find_packages(where = "src"),
     )

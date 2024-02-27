@@ -5,4 +5,5 @@ tox
 mypy>=0.971
 black>=22.8.0
 tox-gh-actions
+pathlib
 -e .

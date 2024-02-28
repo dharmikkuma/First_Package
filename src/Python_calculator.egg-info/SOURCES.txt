@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-setup.cfg
-setup.py
-src/Python_calculator.egg-info/PKG-INFO
-src/Python_calculator.egg-info/SOURCES.txt
-src/Python_calculator.egg-info/dependency_links.txt
-src/Python_calculator.egg-info/requires.txt
-src/Python_calculator.egg-info/top_level.txt

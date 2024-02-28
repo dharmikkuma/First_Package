@@ -12,7 +12,7 @@ setup(
     author_email="dharmikanghan1996@gmail.com",
     url="https://github.com/dharmikkuma/First_Package.git",
     description="An application that calculates",
-    long_description=long_description,
+    long_description=str(long_description),
     long_description_content="text/markdown",
     requires= ["numpy"],
     package_dir = {"": "src"},
